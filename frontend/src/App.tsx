@@ -10,7 +10,7 @@ export default function App() {
         <nav className="bg-white border-b border-gray-200 px-4 py-3 shadow-sm">
           <div className="max-w-5xl mx-auto">
             <a href="/" className="text-lg font-bold text-blue-600">
-              To-Do List
+              Lista To-Do
             </a>
           </div>
         </nav>

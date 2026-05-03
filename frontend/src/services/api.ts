@@ -6,7 +6,7 @@ const api = axios.create({
 });
 
 
-// --- LISTS ---
+// --- Listas ---
 export const getLists = () =>
   api.get<List[]>('/lists').then(r => r.data);
 
@@ -22,7 +22,7 @@ export const updateList = (id: string, data: { title: string; description: strin
 export const deleteList = (id: string) =>
   api.delete(`/lists/${id}`);
 
-// --- TASKS ---
+// --- Tarefas ---
 export const getTasks = (params?: { listId?: string; status?: TaskStatus }) =>
   api.get<Task[]>('/tasks', { params }).then(r => r.data);
 
