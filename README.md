@@ -1,10 +1,5 @@
 # Case Técnico - Desenvolvedor(a) de Software
 
-## Links
-- **Frontend (Vercel):** https://todo-avante.vercel.app
-- **Backend (Railway):** https://todo-avante-production.up.railway.app/api
-- **Documentação da API (Swagger):** https://todo-avante-production.up.railway.app/api/docs
----
 ## Descrição
 
 Um Aplicativo de lista de tarefas com suporte a múltiplas listas, cada uma contendo suas próprias tarefas.
@@ -27,8 +22,8 @@ A aplicação permite criar e gerenciar listas de tarefas organizadas, com contr
 - **Axios**
 
 ### Infraestrutura
-- **Railway**
 - **Vercel**
+  
 ---
 
 ## Funcionalidades
@@ -96,9 +91,7 @@ npm run dev
 O frontend estará disponível em: `http://localhost:5173`
 
 > Por padrão o frontend aponta para `http://localhost:3333/api`. Para usar o backend em produção localmente, crie um arquivo `.env` em `frontend/` com:
-> ```
-> VITE_API_URL=https://todo-avante-production.up.railway.app/api
-> ```
+
 
 ---
 
@@ -117,7 +110,6 @@ O frontend estará disponível em: `http://localhost:5173`
 | PUT | /api/tasks/:id | Atualizar tarefa |
 | DELETE | /api/tasks/:id | Remover tarefa |
 
-> Documentação completa e interativa disponível em: https://todo-avante-production.up.railway.app/api/docs
 
 ---
 
